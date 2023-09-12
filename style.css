@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #464444;
+    padding: 20px;
+    animation: Any 1s alternate infinite;
+}
+
+@keyframes Any {
+    from {
+        background-color: rgb(27, 73, 73);
+    }
+    to {
+        background-color: rgb(3, 99, 75);
+    }
+}
+
+.stopwatch{
+    background-color: #888080;
+    border: 1px solid #e9d1d1;
+    border-radius: 7px;
+    padding: 20px;
+    display: inline-block;
+    animation: Any 0.5s alternate infinite;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .stopwatch {
+        font-size: 20px;
+        padding: 15px;
+    }
+    
+    button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
